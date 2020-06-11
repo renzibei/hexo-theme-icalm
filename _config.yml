@@ -1,15 +1,15 @@
 # Links on sidebar
 menu:
   Home: /
+  Categories: /categories/
   Archive: /archives/
-  # Tags: /tags/
-  # Categories: /categories/
-  # About: /about/
+  Tags: /tags/
+  About: /about/
 
 # Pictures shown on the sidebar
 # Use the absolute URL after generating
-# avatar: /assets/tree_small.png
-# sidebar_background: /assets/header.png
+avatar: /assets/m_avt.png
+sidebar_background: /assets/black_pattern.jpg
 
 rss: /atom.xml
 
