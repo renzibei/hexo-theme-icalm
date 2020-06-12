@@ -8,8 +8,8 @@ menu:
 
 # Pictures shown on the sidebar
 # Use the absolute URL after generating
-avatar: /assets/m_avt.png
-sidebar_background: /assets/black_pattern.jpg
+avatar: /assets/avt_min.jpg
+sidebar_background: /assets/b_pattern_small.jpg
 
 rss: /atom.xml
 
