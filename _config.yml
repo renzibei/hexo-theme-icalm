@@ -32,5 +32,30 @@ disqus:
   # See disqus admin
   shortname:
 
+# Math
+mathEngine: 'katex' # or 'katex 'mathjax''
+math:
+  enable: true
+  all_pages: true
+  mathjax:
+    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    # config: {
+    #   tex2jax: {
+    #     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    #     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+    #     processEscapes: true
+    #   },
+    #   TeX: {
+    #     equationNumbers: {
+    #       autoNumber: "AMS"
+    #     }
+    #   }
+    # }
+  katex:
+    src:
+      css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
+      js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js
+      autorender: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js
+
 # Miscellaneous
 favicon:
