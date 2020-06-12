@@ -27,10 +27,10 @@ source_han_font: true
 # Disqus settings
 disqus:
   # 'disabled' | 'all' | 'post'
-  enable: disabled
+  enable: post
   # Shortname of your disqus website.
   # See disqus admin
-  shortname:
+  shortname: renzibei
 
 # Math, Just use this to load katex css now, helping offline render
 mathEngine: 'katex' # or 'katex 'mathjax''
@@ -46,4 +46,6 @@ math:
       autorender: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
 
 # Miscellaneous
+google_analytics_id: UA-168746624-1
+
 favicon:
