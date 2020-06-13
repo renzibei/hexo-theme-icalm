@@ -19,7 +19,7 @@
     <section class="media">
         <% for (const m in theme.media) { %>
             <% if (theme.media[m]) { %>
-                <a href="<%- full_url_for(theme.media[m]) %>" >
+                <a href="<%- url_for(theme.media[m]) %>" >
                     <img src="/assets/<%= m %>.svg" />
                 </a>
             <% } %>
