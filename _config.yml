@@ -19,8 +19,9 @@ excerpt_link: Read On »
 # Will be shown on the bottom.
 ## To add new icon, just copy .svg to source/assets/ and add entries below.
 media:
-  # github: https://github.com/nameoverflow
+  github: https://github.com/renzibei
   # facebook: https://www.facebook.com/profile.php?id=100004252391322
+  rss: /atom.xml
 
 source_han_font: true
 
