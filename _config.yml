@@ -49,4 +49,4 @@ math:
 # Miscellaneous
 google_analytics_id: UA-168746624-1
 
-favicon:
+favicon: false
