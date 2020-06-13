@@ -1,10 +1,10 @@
 # Icalm
 
-![icalm](https://user-images.githubusercontent.com/10287709/34717147-f9b78e4c-f56c-11e7-803c-a49bc41d6813.png)
+![icalm](./blog_demo_small.jpg)
 
 
 
-[Live example](https://nameoverflow.github.io/)
+[Live example](https://renzibei.com)
 
 ## Browser Support
 
@@ -12,10 +12,12 @@ Latest versions of modern browsers for ES2015+ support.
 
 Basic style support for outdated browsers.
 
+Use [InstantClick](instantclick.io) for fast loading.
+
 ## Installation
 
 ```
-git clone https://github.com/nameoverflow/hexo-theme-icalm.git themes/hexo-theme-icalm
+git clone https://github.com/renzibei/hexo-theme-icalm.git themes/hexo-theme-icalm
 cd themes/hexo-theme-icalm/
 git submodule update --init --recursive
 ```
@@ -29,6 +31,12 @@ git pull && git submodule update --remote
 ## Customize
 
 Edit `_config.yml`.
+
+You can add support for
+
+- social media like github, facebook
+- RSS
+- Latex with pandoc and [hexo-katex](https://github.com/thcd/hexo-katex)
 
 ## Tags or Categories Page
 
