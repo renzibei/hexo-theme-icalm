@@ -4,6 +4,8 @@
     </header>
 
     <section>
+      <%- partial('toc') %>
+      
       <%- post.content %>
 
       <% if (post.type === 'tags') { %>
