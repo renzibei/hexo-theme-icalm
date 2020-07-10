@@ -20,7 +20,8 @@
         <% for (const m in theme.media) { %>
             <% if (theme.media[m]) { %>
                 <a href="<%- url_for(theme.media[m]) %>" >
-                    <img src="/assets/<%= m %>.svg" />
+                    <!-- <img src="/assets/<%= m %>.svg" /> -->
+                    <img src="<%- url_for(theme.media_icon[m]) %>"/>
                 </a>
             <% } %>
         <% } %>
