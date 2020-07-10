@@ -1,6 +1,6 @@
 # Icalm
 
-![icalm](./blog_demo_small.jpg)
+![icalm](https://cdn.jsdelivr.net/gh/renzibei/hexo-theme-icalm/blog_demo_small.jpg)
 
 
 
