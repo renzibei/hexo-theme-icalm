@@ -44,6 +44,11 @@ Run `hexo n page "tags"` or `hexo n page "categories"`
 
 Then edit the generated .md file, set the `type` to `tags` or `categories`.
 
+## TODO List
+
+- Remove unnecessary katex css loading
+- Make static assets CDN more automatic
+
 ## Add License
 
 To add license information to website footer, just add a `license` entry to hexo's `_config.yml`.
