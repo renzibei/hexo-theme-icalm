@@ -8,10 +8,10 @@ menu:
 
 # Pictures shown on the sidebar
 # Use the absolute URL after generating
-avatar: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/avt_min.jpg
-# avatar: assets/avt_min.jpg
-sidebar_background: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/b_pattern_small.jpg
-# sidebar_background: assets/b_pattern_small.jpg
+# avatar: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/avt_min.jpg
+avatar: /assets/avt_min.jpg
+# sidebar_background: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/b_pattern_small.jpg
+sidebar_background: /assets/b_pattern_small.jpg
 
 rss: /atom.xml
 
@@ -26,8 +26,10 @@ media:
   rss: /atom.xml
 
 media_icon:
-  github: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/github.svg
-  rss: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/rss.svg
+  # github: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/github.svg
+  # rss: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/rss.svg
+  github: /assets/github.svg
+  rss: /assets/rss.svg
 
 source_han_font: true
 

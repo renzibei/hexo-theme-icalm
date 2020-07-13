@@ -4,13 +4,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><% if (page.title){ %><%= page.title %> | <% } %><%= config.title %></title>
   <% if (theme.favicon) { %>
-    <link rel="icon" href="<%- theme.favicon %>">
+    <link rel="icon" href="<%- cdn_asset(theme.favicon) %>">
   <% } %>
   <% if (theme.source_han_font) { %>
   <% } %>
-  <!--link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.10.0/styles/github-gist.min.css"-->
-  <%- css('//cdn.jsdelivr.net/highlight.js/9.10.0/styles/github-gist.min.css') %>
-  <!-- <%- css('css/style') %> -->
-  <%- css('//cdn.jsdelivr.net/gh/renzibei/blog-asset-images/css/style.css') %>
+
+  <%- css('https://cdn.jsdelivr.net/highlight.js/9.10.0/styles/github-gist.min.css') %>
+  <%- cdn_css('css/style') %>
+  <!-- <%- cdn_js('js/katex.min') %> -->
   <%- partial('_partial/google-analytics') %>
 </head>

@@ -44,10 +44,17 @@ Run `hexo n page "tags"` or `hexo n page "categories"`
 
 Then edit the generated .md file, set the `type` to `tags` or `categories`.
 
+## Speed up loading static assets with jsDelivr CDN
+
+Now you can use `hexo-cdn-jsdelivr` to speed up the loading of static assets like images. You can check it in its [Github repo](https://github.com/renzibei/hexo-cdn-jsdelivr).
+
+You may have to install it to avoid some of the errors in template files.
+
 ## TODO List
 
-- Remove unnecessary katex css loading
-- Make static assets CDN more automatic
+- [ ] Remove unnecessary katex css loading
+
+- [x] Make static assets CDN more automatic
 
 ## Add License
 
