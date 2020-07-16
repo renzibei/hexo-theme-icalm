@@ -36,7 +36,7 @@ You can add support for
 
 - social media like github, facebook
 - RSS
-- Latex with pandoc and [hexo-katex](https://github.com/thcd/hexo-katex)
+- Latex with pandoc and [hexo-filter-mathjax](https://github.com/next-theme/hexo-filter-mathjax)
 
 ## Tags or Categories Page
 

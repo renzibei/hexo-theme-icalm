@@ -41,18 +41,21 @@ disqus:
   # See disqus admin
   shortname: renzibei
 
+# If you want to add support for Latex, use hexo-filter-mathjax, https://github.com/next-theme/hexo-filter-mathjax
+
+# Below is deprecated, install hexo-filter-mathjax instead
 # Math, Just use this to load katex css now, helping offline render
-mathEngine: 'katex' # or 'katex 'mathjax''
-math:
-  enable: true
-  all_pages: true
-  mathjax:
-    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  katex:
-    src:
-      css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
-      js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
-      autorender: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
+# mathEngine: 'katex' # or 'katex 'mathjax''
+# math:
+#   enable: false
+#   all_pages: false
+#   mathjax:
+#     src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#   katex:
+#     src:
+#       css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
+#       js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
+#       autorender: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
 
 # Miscellaneous
 google_analytics_id: UA-168746624-1
