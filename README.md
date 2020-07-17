@@ -18,6 +18,7 @@ Use [InstantClick](instantclick.io) for fast loading.
 
 ```
 git clone https://github.com/renzibei/hexo-theme-icalm.git themes/hexo-theme-icalm
+npm install hexo-cdn-jsdelivr
 cd themes/hexo-theme-icalm/
 git submodule update --init --recursive
 ```

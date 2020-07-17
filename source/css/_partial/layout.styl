@@ -1,3 +1,7 @@
+/**
+layout begin
+*/
+
 $link_color_d = rgb(104, 104, 104)
 $link_color_h = rgb(14, 14, 14)
 
@@ -170,43 +174,3 @@ blockquote
     .PageTitle h1
         font-size: 1.3rem !important
 
-.route-trans-enter
-    fill-full(0, 0)
-    transform: translateX(-100px)
-    opacity: 0
-
-.route-trans-enter.route-trans-enter-active
-    animation: route-trans-e 0.8s
-    animation-fill-mode: forwards
-
-
-.route-trans-leave
-    fill-full(0, 0)
-    transform: translateX(0)
-    opacity: 1
-
-.route-trans-leave.route-trans-leave-active
-    animation: route-trans-o 0.8s
-    animation-fill-mode: forwards
-
-@keyframes route-trans-e
-    0%
-        transform: translate3d(-100px, 0, 0)
-        opacity: 0
-    50%
-        transform: translate3d(-100px, 0, 0)
-        opacity: 0
-    100%
-        transform: translate3d(0, 0, 0)
-        opacity: 1
-
-@keyframes route-trans-o
-    0%
-        transform: translate3d(0, 0, 0)
-        opacity: 1
-    50%
-        transform: translate3d(100px, 0, 0)
-        opacity: 0
-    100%
-        transform: translate3d(100px, 0, 0)
-        opacity: 0
