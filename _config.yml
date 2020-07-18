@@ -60,4 +60,8 @@ disqus:
 # Miscellaneous
 google_analytics_id: UA-168746624-1
 
-favicon: false
+favicon:
+  icon180px: /favicons/apple-touch-icon.png
+  icon32px: /favicons/favicon-32x32.png
+  icon16px: /favicons/favicon-16x16.png
+  manifest: /favicons/site.webmanifest
