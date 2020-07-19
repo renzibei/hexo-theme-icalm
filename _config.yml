@@ -65,3 +65,10 @@ favicon:
   icon32px: /favicons/favicon-32x32.png
   icon16px: /favicons/favicon-16x16.png
   manifest: /favicons/site.webmanifest
+
+
+copyright:
+  enable: true
+  license_title: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  license_icon: /assets/by-nc-nd.svg
