@@ -1,0 +1,17 @@
+<% if (theme.favicon) { %>
+    <% if (theme.favicon.ico) { %>
+      <link rel="icon" href="<%- cdn_asset(theme.favicon.ico) %>">
+    <% } %>
+    <% if (theme.favicon.icon180px) { %>
+      <link rel="apple-touch-icon" sizes="180x180" href="<%- cdn_asset(theme.favicon.icon180px) %>">
+    <% } %>
+    <% if (theme.favicon.icon32px) { %>
+      <link rel="icon" type="image/png" sizes="32x32" href="<%- cdn_asset(theme.favicon.icon32px) %>">
+    <% } %>
+    <% if (theme.favicon.icon16px) { %>
+      <link rel="icon" type="image/png" sizes="16x16" href="<%- cdn_asset(theme.favicon.icon16px) %>">
+    <% } %>
+    <% if (theme.favicon.manifest) { %>
+      <link rel="icon" href="<%- url_for(theme.favicon.manifest) %>">
+    <% } %>
+  <% } %>
