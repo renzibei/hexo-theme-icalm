@@ -17,7 +17,7 @@
       <link rel="icon" type="image/png" sizes="16x16" href="<%- cdn_asset(theme.favicon.icon16px) %>">
     <% } %>
     <% if (theme.favicon.manifest) { %>
-      <link rel="icon" href="<%- cdn_asset(theme.favicon.manifest) %>">
+      <link rel="icon" href="<%- url_for(theme.favicon.manifest) %>">
     <% } %>
   <% } %>
   <% if (theme.source_han_font) { %>
