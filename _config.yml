@@ -36,10 +36,19 @@ source_han_font: true
 # Disqus settings
 disqus:
   # 'disabled' | 'all' | 'post'
-  enable: post
+  enable: 'disabled'
   # Shortname of your disqus website.
   # See disqus admin
   shortname: renzibei
+
+disqusjs:
+  enable: 'post'
+  sitename: renzibei.com
+  # api: https://disqus.com/api/
+  api: https://disqus.skk.moe/disqus/
+  shortname: renzibei
+  apikey: vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD
+  nocomment: 这里还没有评论
 
 # If you want to add support for Latex, use hexo-filter-mathjax, https://github.com/next-theme/hexo-filter-mathjax
 

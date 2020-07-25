@@ -1,10 +1,10 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<%= theme.google_analytics_id %>"></script>
-<script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= theme.google_analytics_id %>" data-no-instant></script>
+<script data-no-instant>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '<%= theme.google_analytics_id %>');
+  gtag('config', '<%= theme.google_analytics_id %>', {'page_path': window.location.pathname + window.location.search});
 </script>
 
