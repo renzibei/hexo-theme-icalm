@@ -45,7 +45,7 @@ disqusjs:
   enable: 'post'
   sitename: renzibei.com
   # api: https://disqus.com/api/
-  api: https://disqus.skk.moe/disqus/
+  api: https://disqus.renzibei.com/api/
   shortname: renzibei
   apikey: vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD
   nocomment: 这里还没有评论
