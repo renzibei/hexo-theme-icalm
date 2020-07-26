@@ -17,9 +17,37 @@
         
     </script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css" media="none" onload="if(media!='all')media='all'">
-    <script defer src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js" onload="createDisqusJS()" disqusjs></script>
-
     
+    <script>
+
+        function isIEBrowser() {
+            var ua = window.navigator.userAgent;
+            if (ua.indexOf("MSIE ") > 0 || ua.indexOf('Trident/') > 0)  
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        if(isIEBrowser()) {
+            var s1 = document.createElement('script');
+            s1.src = 'https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js';
+            var s2 = document.createElement('script');
+            s2.src = 'https://cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd.min.js';
+            document.body.appendChild(s1);
+            document.body.appendChild(s2);
+        }
+    </script>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css" media="none" onload="if(media!='all')media='all'"> -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css" as="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css" media="none" onload="if(media!='all')media='all'">
+    <!-- <script defer src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js" onload="createDisqusJS()" disqusjs></script> -->
+    <script defer src="https://cdn.jsdelivr.net/gh/renzibei/disqusjs@99c55b91111048add0dbeaed47513a04cbf15462/dist/disqus.js" onload="createDisqusJS()" disqusjs></script>
+
+    <!-- <script defer src="<%- url_for('js/disqus.js') %>" onload="createDisqusJS()" disqusjs></script> -->
 
 <% } %>
