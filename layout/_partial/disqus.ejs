@@ -3,8 +3,8 @@
       <div id="disqus_thread"></div>
       <script>
         window.disqus_config = function () {
-          this.page.url = window.location.toString()
-          this.page.identifier = window.location.pathname
+          this.page.url = '<%= page.permalink %>';
+          this.page.identifier = '<%= page.path %>';
         }
         if (typeof DISQUS === 'undefined') {
           (function() { // DON'T EDIT BELOW THIS LINE

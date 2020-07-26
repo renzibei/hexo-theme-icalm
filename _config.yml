@@ -39,7 +39,7 @@ disqus:
   enable: 'disabled'
   # Shortname of your disqus website.
   # See disqus admin
-  shortname: renzibei-site
+  shortname: renzibei-test
 
 disqusjs:
   enable: 'post'
@@ -47,8 +47,9 @@ disqusjs:
   # api: https://disqus.com/api/
   api: https://disqus.renzibei.com/api/
   shortname: renzibei-site
+  # shortname: renzibei-test
   apikey: vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD
-  nocomment: 这里还没有评论
+  nocomment: 花径不曾缘客扫，蓬门今始为君开。
 
 # If you want to add support for Latex, use hexo-filter-mathjax, https://github.com/next-theme/hexo-filter-mathjax
 
