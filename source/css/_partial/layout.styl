@@ -28,26 +28,61 @@ a
         color: $link_color_h
         border-bottom: 1px $link_color_h solid
 
+.gutter
+    text-align: right
+    width: 2em
+
+
 figure.highlight
     display: block
-    width: 92%
+    // width: 92%
     margin: auto
     overflow-x: auto
 
+
 .highlight > table
     width: 100%
+    padding: 0
+
+.highlight
+    td.gutter, td.code
+        padding: 0
+        border: 0
+    td.gutter
+        border-right: 1px solid gray
+figure.highlight
+    table
+        border: 0
+        margin-top: auto
+        margin-bottom: auto
+
+code
+    background: #eee
+    padding: 1px 0.4em
 
 figure.highlight, .code, code
     font-family: Monaco, Menlo, Consolas, 'Microsoft Yahei', monospace
     font-size: 13px
     margin: auto 5px
+    border: 0
+    
     pre
-        // width: 90%
+        //width: 98%
         margin: auto
         overflow-x: auto
         font-family: inherit
         font-size: 13px
+        background: #eee
         line-height: 1.6em
+        border: 0
+
+.highlight
+    .gutter pre
+        padding: 0.5em 0.5em
+        background: #eff2f3
+    .code pre
+        padding: 0.5em 2em
+        background: #f7f7f7
 
 img
     max-width: 100%
