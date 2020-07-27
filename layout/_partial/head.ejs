@@ -10,6 +10,11 @@
   <% } %>
 
   <%- inline_css("themes/hexo-theme-icalm/source/css/style.styl") %>
+  <link rel="preload" href="<%- url_for('https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css') %>" as="style">
+  <link rel="preload" href="<%- cdn_asset(theme.sidebar_background) %>" as="image">
+  <link rel="preload" href="<%- cdn_asset(theme.avatar) %>" as="image">
+  
+
   <link rel="stylesheet" href="<%- url_for('https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css') %>" media="none" onload="if(media!='all')media='all'">
   <link rel="stylesheet" href="<%- cdn_asset('css/defer-style.css') %>"  media="none" onload="if(media!='all')media='all'">
 
