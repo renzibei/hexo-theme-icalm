@@ -26,8 +26,6 @@ media:
   rss: /atom.xml
 
 media_icon:
-  # github: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/github.svg
-  # rss: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/rss.svg
   github: /assets/github.svg
   rss: /assets/rss.svg
 
