@@ -1,10 +1,11 @@
 # Links on sidebar
 menu:
-  Home: /
-  Categories: /categories/
-  Archive: /archives/
-  Tags: /tags/
-  About: /about/
+  Home: /en/
+  Categories: /en/categories/
+  Archive: /en/archives/
+  Tags: /en/tags/
+  中文: /
+  About: /en/about/
 
 # Pictures shown on the sidebar
 # Use the absolute URL after generating
@@ -13,7 +14,7 @@ avatar: /assets/boat_avt3.png
 # sidebar_background: https://cdn.jsdelivr.net/gh/renzibei/blog-asset-images/theme-assets/b_pattern_small.jpg
 sidebar_background: /assets/b_pattern_small.jpg
 
-rss: /atom.xml
+rss: /en/atom.xml
 
 # Content
 excerpt_link: Read On »
@@ -47,7 +48,7 @@ disqusjs:
   shortname: renzibei-site
   # shortname: renzibei-test
   apikey: vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD
-  nocomment: 花径不曾缘客扫，蓬门今始为君开。
+  nocomment: Come share your views with us!
 
 # If you want to add support for Latex, use hexo-filter-mathjax, https://github.com/next-theme/hexo-filter-mathjax
 
