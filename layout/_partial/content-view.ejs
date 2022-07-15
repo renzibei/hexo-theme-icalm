@@ -23,7 +23,7 @@
       <%- partial('_partial/copyright') %>
       <section class='ArticleMeta'>
           <div>
-            发布于&nbsp;
+            <%= __('post_in_date') %>&nbsp;
             <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
               <%= date(post.date, config.date_format) %>
             </time>
