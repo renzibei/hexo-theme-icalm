@@ -4,7 +4,6 @@ menu:
   Categories: /en/categories/
   Archive: /en/archives/
   Tags: /en/tags/
-  中文: /
   About: /en/about/
 
 # Pictures shown on the sidebar
@@ -22,11 +21,13 @@ excerpt_link: Read On »
 # Will be shown on the bottom.
 ## To add new icon, just copy .svg to source/assets/ and add entries below.
 media:
+  chinese: /
   github: https://github.com/renzibei
   # facebook: https://www.facebook.com/profile.php?id=100004252391322
-  rss: /atom.xml
+  rss: /en/atom.xml
 
 media_icon:
+  chinese: /assets/translate_icon.svg
   github: /assets/github.svg
   rss: /assets/rss.svg
 
@@ -42,10 +43,10 @@ disqus:
 
 disqusjs:
   enable: 'post'
-  sitename: renzibei.com
+  sitename: renzibei.com/en
   # api: https://disqus.com/api/
   api: https://disqus.renzibei.com/api/
-  shortname: renzibei-site
+  shortname: renzibei-en
   # shortname: renzibei-test
   apikey: vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD
   nocomment: Come share your views with us!
