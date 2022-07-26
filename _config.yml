@@ -4,7 +4,6 @@ menu:
   Categories: /categories/
   Archive: /archives/
   Tags: /tags/
-  English: /en/
   About: /about/
 
 # Pictures shown on the sidebar
@@ -22,11 +21,13 @@ excerpt_link: Read On »
 # Will be shown on the bottom.
 ## To add new icon, just copy .svg to source/assets/ and add entries below.
 media:
+  chinese: /en/
   github: https://github.com/renzibei
   # facebook: https://www.facebook.com/profile.php?id=100004252391322
   rss: /atom.xml
 
 media_icon:
+  chinese: /assets/translate_icon.svg
   github: /assets/github.svg
   rss: /assets/rss.svg
 
